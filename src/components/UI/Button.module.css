@@ -1,0 +1,18 @@
+.button {
+  border: 1px solid lavender;
+  background: lavender;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.button:hover,
+.button:active {
+  border: 1px solid beige;
+  background: beige;
+}
+
+.button:focus {
+  outline:none
+}

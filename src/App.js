@@ -1,11 +1,12 @@
 import React from 'react';
 
-import './App.css';
-
-function App() {
+import AddUser from './components/Users/AddUser';
+import UsersList from './components/Users/UsersList';
+const App = () => {
   return (
     <div>
-      <h2>Hello, World!</h2>
+      <AddUser />
+      <UsersList users={[]}/>
     </div>
   );
 }
